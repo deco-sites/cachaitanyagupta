@@ -68,7 +68,7 @@ export default function ImageWithParagraph({
           <p class="text-sm font-semibold">
             {tagline}
           </p>
-          <p class="text-4xl leading-snug">
+          <p class="text-4xl leading-snug" style="color:RGB(48, 188, 145);">
             {title}
           </p>
           <p class="leading-normal">

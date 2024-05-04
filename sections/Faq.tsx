@@ -75,6 +75,7 @@ export default function BlogPosts({
             class={`font-normal btn btn-primary ${
               cta.outline && "btn-outline"
             }`}
+            style={{color: "RGB(48, 188, 145)"}}
           >
             {cta?.text}
           </a>
