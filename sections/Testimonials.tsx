@@ -44,12 +44,12 @@ const DEFAULT_PROPS = {
     {
       content: {
         description:
-          "Showcase customer feedback that emphasizes your product or service's key features and addresses prospective clients' concerns. Display endorsements from customer groups that mirror your target audience.",
+          "Working with CA Chaitanya Gupta was a rewarding experience. His dedication to excellence and deep knowledge in accounting were evident throughout the project.",
         avatar:
           "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
         alt: "Avatar",
-        name: "Name Surname",
-        position: "Position, Company name",
+        name: "Anshu Bajaj",
+        position: "SDET, Bajaj Finserv Health",
       },
     },
     {
