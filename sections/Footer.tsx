@@ -86,12 +86,12 @@ export default function Footer({
       "By subscribing you agree to with our <a href='/' target='_blank' class='link'>Privacy Policy</a> and provide consent to receive updates from our company.",
   },
   madeWith = {
-    label: "Made with",
+    label: "Made by",
     src:
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/cc202be0-af57-4b32-b9c9-d1d7dc97bf85",
     href: "https://deco.cx",
   },
-  copyright = "© 2024 deco.cx. All rights reserved.",
+  copyright = "© 2024 CA Chaitanya Gupta and Associates All rights reserved.",
   bottomLinks = [
     { label: "Privacy Policy", href: "/" },
     { label: "Terms of Service", href: "/" },
@@ -112,8 +112,8 @@ export default function Footer({
           <div>
             <Image
               src={logo.src || ""}
-              width={100}
-              height={28}
+              width={300}
+              height={45}
               alt={logo.alt}
             />
           </div>
@@ -166,12 +166,7 @@ export default function Footer({
               target="_blank"
             >
               <span>{madeWith?.label}</span>
-              <Image
-                src={madeWith?.src || ""}
-                width={100}
-                height={28}
-                alt={madeWith?.label}
-              />
+              <span>Ishaan Bajpai</span>
             </a>
             <span>{copyright}</span>
             <div class="flex gap-2 justify-between lg:gap-6">
